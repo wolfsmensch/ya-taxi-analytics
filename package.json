@@ -1,0 +1,28 @@
+{
+  "name": "yataxianalytics",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfsmensch/ya-taxi-analytics.git"
+  },
+  "keywords": [],
+  "author": "Eugene Trotsenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolfsmensch/ya-taxi-analytics/issues"
+  },
+  "homepage": "https://github.com/wolfsmensch/ya-taxi-analytics#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.7",
+    "server-health": "^5.0.1"
+  }
+}
